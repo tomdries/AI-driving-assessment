@@ -9,6 +9,10 @@ The purpose of this repository is to:
 For the full recordings of our demonstrations, including video and vehicle data, please refer to the [4TU data repository](https://data.4tu.nl/).
 
 ## Reproducing the analysis figures
+<div align="center">
+  <img src="https://github.com/tomdries/AI-driving-assessment/blob/main/output_plot.png" alt="AI Driving Assessment Plot" width="600"/>
+</div>
+
 The `analysis.py` code only requires `pandas` and `matplotlib` and uses the files in the `openpilot-output` folder. To access the full recordings of the scenarios (including video and vehicle data), visit the [4TU data repository](https://data.4tu.nl/).
 
 Cloning the Openpilot submodule from this repository is **not required** to reproduce the images.
