@@ -1,3 +1,8 @@
+# tom 
+recordings/
+archive/
+venv-analysis-windows/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
