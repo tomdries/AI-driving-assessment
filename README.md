@@ -21,8 +21,6 @@ To analyze human driving data, we made a fork of the Openpilot repository, which
 
 Please follow the installation instructions in `openpilot/tools/README.md` and the replay instructions in `openpilot/tools/sim/README.md`.
 
-Note that the Openpilot software is licensed according to Comma.ai's own MIT license. 
-
 ## Recording virtual scenarios with JOAN
 To record scenarios in the CARLA simulator using the JOAN framework (an extension that allows for human input), please consult the [JOAN repository](https://github.com/tud-hri/joan). Our scenarios were implemented in [CARLA Town 1](https://carla.readthedocs.io/en/latest/map_town01/). The experiment configuration and trajectory for the bus in the surprise scenario can be found in the `joan_experiments/` directory.
 
