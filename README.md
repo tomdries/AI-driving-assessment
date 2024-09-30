@@ -9,6 +9,10 @@ The purpose of this repository is to:
 For the full recordings of our demonstrations, including video and vehicle data, please refer to the [4TU data repository](https://data.4tu.nl/).
 
 ## Reproducing the analysis figures
+<div align="center">
+  <img src="https://github.com/tomdries/AI-driving-assessment/blob/main/output_plot.png" alt="AI Driving Assessment Plot" width="600"/>
+</div>
+
 The `analysis.py` code only requires `pandas` and `matplotlib` and uses the files in the `openpilot-output` folder. To access the full recordings of the scenarios (including video and vehicle data), visit the [4TU data repository](https://data.4tu.nl/).
 
 Cloning the Openpilot submodule from this repository is **not required** to reproduce the images.
@@ -22,4 +26,4 @@ Please follow the installation instructions in `openpilot/tools/README.md` and t
 To record scenarios in the CARLA simulator using the JOAN framework (an extension that allows for human input), please consult the [JOAN repository](https://github.com/tud-hri/joan). Our scenarios were implemented in [CARLA Town 1](https://carla.readthedocs.io/en/latest/map_town01/). The experiment configuration and trajectory for the bus in the surprise scenario can be found in the `joan_experiments/` directory.
 
 ## Citations
-If you use any of the data or code presented here, please cite our paper.
+If you use the data or code presented here, please cite our paper.
