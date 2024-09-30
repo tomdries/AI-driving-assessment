@@ -3,8 +3,9 @@
 This repository contains the code for the paper "*How AI from Automated Vehicles Can Contribute to the Assessment of Human Driving Behavior*" by Tom Driessen, Olger Siebinga, Thomas de Boer, Dimitra Dodou, Dick de Waard, and Joost de Winter.
 
 The purpose of this repository is to:
-1. Reproduce the figures from the paper using the demonstration data.
-2. Provide access to a modified version of Openpilot so it can be used to analyze your own driving recordings. 
+1. Provide access to the recordings created for the demonstration.
+2. Reproduce the figures from the paper using the demonstration data.
+3. Provide access to a modified version of Openpilot so it can be used to analyze your own driving recordings. 
 
 ## Reproducing the analysis figures
 <div align="center">
