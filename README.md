@@ -4,16 +4,14 @@ This repository contains the code for the paper "*How AI from Automated Vehicles
 
 The purpose of this repository is to:
 1. Reproduce the figures from the paper using the demonstration data.
-2. Provide access to a modified version of Openpilot so it can be used to analyze your own driving recordings.
-
-For the full recordings of our demonstrations, including video and vehicle data, please refer to the [4TU data repository](https://data.4tu.nl/).
+2. Provide access to a modified version of Openpilot so it can be used to analyze your own driving recordings. 
 
 ## Reproducing the analysis figures
 <div align="center">
   <img src="https://github.com/tomdries/AI-driving-assessment/blob/main/output_plot.png" alt="AI Driving Assessment Plot" width="600"/>
 </div>
 
-The `analysis.py` code only requires `pandas` and `matplotlib` and uses the files in the `openpilot-output` folder. To access the full recordings of the scenarios (including video and vehicle data), visit the [4TU data repository](https://data.4tu.nl/).
+The `analysis.py` code only requires `pandas` and `matplotlib` and uses the files in the `recordings` folder. The full recordings of the scenarios (including video and vehicle data) are in this folder as well. The file naming convention is found in the readme located in that folder.
 
 Cloning the Openpilot submodule from this repository is **not required** to reproduce the images.
 
@@ -21,6 +19,8 @@ Cloning the Openpilot submodule from this repository is **not required** to repr
 To analyze human driving data, we made a fork of the Openpilot repository, which is included in this repository as a submodule. You can clone it directly from the fork's repository or from this repository using the `--recurse-submodules` flag in the `git clone` command.
 
 Please follow the installation instructions in `openpilot/tools/README.md` and the replay instructions in `openpilot/tools/sim/README.md`.
+
+Note that the Openpilot software is licensed according to Comma.ai's own MIT license. 
 
 ## Recording virtual scenarios with JOAN
 To record scenarios in the CARLA simulator using the JOAN framework (an extension that allows for human input), please consult the [JOAN repository](https://github.com/tud-hri/joan). Our scenarios were implemented in [CARLA Town 1](https://carla.readthedocs.io/en/latest/map_town01/). The experiment configuration and trajectory for the bus in the surprise scenario can be found in the `joan_experiments/` directory.

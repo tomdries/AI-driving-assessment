@@ -134,7 +134,7 @@ def multiplot(dfs: List[pd.DataFrame], condition_names: List[str], xlims: Dict[s
     return fig
 
 def main():
-    folder = 'openpilot-output'
+    folder = 'recordings'
     conditions = ['calm', 'aggressive', 'surprise'] 
     # conditions = ['aggressive', 'calm', 'surprise', 'aggressive_2', 'calm_2', 'surprise_2']  # Uncomment for 2 trials
 
