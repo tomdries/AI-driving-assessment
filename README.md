@@ -1,6 +1,6 @@
 # Code repository for the paper: How AI from Automated Vehicles Can Contribute to the Assessment of Human Driving Behavior
 
-This repository contains the code for the paper "*How AI from Automated Vehicles Can Contribute to the Assessment of Human Driving Behavior*" by Tom Driessen, Olger Siebinga, Thomas de Boer, Dimitra Dodou, Dick de Waard, and Joost de Winter.
+This repository contains the code for the paper [How AI from Automated Vehicles Can Contribute to the Assessment of Human Driving Behavior](https://www.researchgate.net/publication/384503616_How_AI_from_automated_driving_systems_can_contribute_to_the_assessment_of_human_driving_behavior) by Tom Driessen, Olger Siebinga, Thomas de Boer, Dimitra Dodou, Dick de Waard, and Joost de Winter.
 
 The purpose of this repository is to:
 1. Provide access to the recordings created for the demonstration.
@@ -17,7 +17,7 @@ The `analysis.py` code only requires `pandas` and `matplotlib` and uses the file
 Cloning the Openpilot submodule from this repository is **not required** to reproduce the images.
 
 ## Using Openpilot to analyze other data
-To analyze human driving data, we made a fork of the Openpilot repository, which is included in this repository as a submodule. You can clone it directly from the fork's repository or from this repository using the `--recurse-submodules` flag in the `git clone` command.
+To analyze human driving data, we made a fork of the Openpilot repository, which is included in this repository as a submodule. You can clone it directly from the [fork's repository](https://github.com/tomdries/openpilot) (recommended) or from this repository using the `--recurse-submodules` flag in the `git clone` command.
 
 Please follow the installation instructions in `openpilot/tools/README.md` and the replay instructions in `openpilot/tools/sim/README.md`.
 
