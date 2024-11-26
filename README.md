@@ -26,8 +26,6 @@ To record scenarios in the CARLA simulator using the JOAN framework (an extensio
 
 ## Citations
 If you use the data or code presented here, please cite:
-
 ```
-Driessen, T., Siebinga, O., De Boer, T., Dodou, D., De Waard, D., & De Winter, J. (2024). How AI from Automated Driving Systems Can Contribute to the Assessment of Human Driving Behavior. Robotics, 13(12), 169. https://doi.org/10.3390/robotics13120169
-```
+Driessen, T., Siebinga, O., De Boer, T., Dodou, D., De Waard, D., & De Winter, J. (2024). How AI from Automated Driving Systems Can Contribute to the Assessment of Human Driving Behavior. Robotics, 13(12), 169. https://doi.org/10.3390/robotics13120169```
 
