@@ -25,4 +25,9 @@ Please follow the installation instructions in `openpilot/tools/README.md` and t
 To record scenarios in the CARLA simulator using the JOAN framework (an extension that allows for human input), please consult the [JOAN repository](https://github.com/tud-hri/joan). Our scenarios were implemented in [CARLA Town 1](https://carla.readthedocs.io/en/latest/map_town01/). The experiment configuration and trajectory for the bus in the surprise scenario can be found in the `joan_experiments/` directory.
 
 ## Citations
-If you use the data or code presented here, please cite our paper.
+If you use the data or code presented here, please cite:
+
+```
+Driessen, T., Siebinga, O., De Boer, T., Dodou, D., De Waard, D., & De Winter, J. (2024). How AI from Automated Driving Systems Can Contribute to the Assessment of Human Driving Behavior. Robotics, 13(12), 169. https://doi.org/10.3390/robotics13120169
+```
+
